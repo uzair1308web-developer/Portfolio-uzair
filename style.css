@@ -33,6 +33,7 @@ header {
     height: 100%;
     z-index: 100;   
     display: none;
+    
 }
 .modal-box{
     background: #f5df4e;
@@ -42,6 +43,7 @@ header {
     left: calc(50% - 15%);
     padding: 15px;
     border-radius: 4px;
+    
 }
 .open-modal{
     display: block;
@@ -1418,6 +1420,11 @@ footer span {
 }
 
 @media only screen and (max-width:768px) {
+
+    .modal .modal-box{
+        width: 50%;
+        left: calc(50% - 25%);
+    }
     .home {
         display: flex;
         flex-wrap: wrap;
@@ -1718,6 +1725,11 @@ footer span {
     }
 
     @media only screen and (max-width:500px) {
+
+        .modal .modal-box{
+            width: 100%;
+            left: calc(50% - 50%);
+        }
         header .imgBx {
             height: 40px;
             width: 95px;
@@ -1832,6 +1844,13 @@ footer span {
         .portfolio .ul-box ul li {
             font-size: 12px;
         }
+
+        .portfolio-container .portfolio-item .portfolio-wrap{
+            border: 1px solid black;
+            width: 350px;
+            
+        }
+        
 
         .question button {
             font-size: 13px;
