@@ -12,7 +12,6 @@
     <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
     <link href="vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
     <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
     <link href="vendor/aos/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css?v=<?php echo time(); ?>" type="text/css">
 
@@ -85,7 +84,7 @@
                 <div class="menuToggle"></div>
             </div>
         </header>
-        <section class="home" id="home" data-aos="fade-in">
+        <section class="home" id="home">
             <div class="content" data-aos="fade-in">
                 <h1>HI, I'M A FREELANCER</h1>
                 <h2><span class="auto-type"></span></h2>
@@ -96,7 +95,7 @@
             </div>
             <div class="imgBx" data-aos="fade-up"><img src="images/unnamed.jpg" class="men"></div>
         </section>
-        <section class="about" id="home" data-aos="fade-up">
+        <section class="about" id="home">
             <div class="about-heading">
                 <span class="ab-h3">About Me</span>
                 <h1 class="ab-h1">Know Me More</h1>
@@ -148,9 +147,9 @@
             </div>
         </section>
 
-        <section class="skills" data-aos="fade-up" data-aos-delay="100">
+        <section class="skills">
             <h1>My Skills</h1>
-            <div class="skill-main">
+            <div class="skill-main" data-aos="fade-up" data-aos-delay="100">
                 <div class="skill-box">
                     <h3>HTML<span>100%</span></h3>
                     <div class="progress-1">
@@ -192,12 +191,12 @@
 
         </section>
 
-        <section class="what-to-do" id="what" data-aos="fade-up">
+        <section class="what-to-do" id="what">
             <div class="wtd-heading">
                 <span>What I Do?</span>
                 <h1>How I can help your next project</h1>
             </div>
-            <div class="container">
+            <div class="container" data-aos="fade-up">
                 <div class="container-box card p-4 border-0">
                     <a href="#"><ion-icon id="icon" name="code-slash"></ion-icon></a>
                     <h3>Web Development</h3>
@@ -217,12 +216,12 @@
         </section>
 
         <!-- start portfolio section -->
-        <section class="portfolio" id="pfolio" data-aos="fade-up">
+        <section class="portfolio" id="pfolio">
             <div class="pfolio-heading">
                 <span>Portfolio</span>
                 <h1>Some of my most recent projects</h1>
             </div>
-            <div class="ul-box filter-buttons" id="filter-button">
+            <div class="ul-box filter-buttons" id="filter-button"  data-aos="fade-up">
                 <ul class="portfolio-ul" id="filter-btns">
                     <li data-target="all" class="active">All</li>
                     <li data-target="app">Apps</li>
@@ -385,7 +384,7 @@
         <!-- end testimonial -->
 
         <!-- start hero section -->
-        <section class="hero" data-aos="fade-up" data-aos-delay="100">
+        <section class="hero">
             <div class="img-mask"></div>
             <h4>Interested in working with me?</h4>
             <a href="https://api.whatsapp.com/send?phone=+918601972856&text=Hi, this is Uzair Khan" target="_blank"><button>Hire Me !</button></a>
@@ -394,7 +393,7 @@
 
         <!-- start questioniare section -->
         <section class="questioniare" id="faq">
-            <div class="faq">
+            <div class="faq"  data-aos="fade-up" data-aos-delay="100">
                 <div class="question-heading">
                     <span>FAQ</span>
                     <h1>Have any questions ?</h1>
@@ -456,7 +455,7 @@
                 </div>
 
             </div>
-            <div class="img-box">
+            <div class="img-box"  data-aos="fade-up" data-aos-delay="100">
 
                 <img src="images/faq.png" alt="">
 
@@ -464,7 +463,7 @@
         </section>
         <!-- end questionare section -->
 
-        <section class="contact" id="contact" data-aos="fade-up">
+        <section class="contact" id="contact">
             <div class="container2" data-aos="fade-up">
                 <div class="get-in-touch">
                     <h1 class="head1">Lets Get in touch</h1>
@@ -530,10 +529,9 @@
         </footer>
 
 
-    <script src="script.js"></script>
+    
     <script src="jquery-3.7.0.min.js"></script>
     <script src="jquery.scrollUp.min.js"> </script>
-    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
