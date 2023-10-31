@@ -93,7 +93,7 @@
                 <div class="btn"><a href="https://api.whatsapp.com/send?phone=+918601972856&text=Hi%20Digicrowd%20Solution" target="_blank"><button>Contact Me</button></a>
                 </div>
             </div>
-            <div class="imgBx" data-aos="fade-up"><img src="images/unnamed.jpg" class="men"></div>
+            <div class="imgBx" data-aos="fade-up"><img src="images/IMG-5025.jpg" class="men"></div>
         </section>
         <section class="about" id="home">
             <div class="about-heading">
