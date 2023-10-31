@@ -601,7 +601,7 @@
                         response = JSON.parse(response)
                         if (response['status']) {
                             $(".modal").show();
-                            $(".form").reset();
+                            document.querySelector('.form').reset();
                         } else {
                             $(".modal").hide();
                         }
