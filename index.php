@@ -458,7 +458,7 @@
             </div>
             <div class="img-box">
 
-                <img src="faq.png" alt="">
+                <img src="images/faq.png" alt="">
 
             </div>
         </section>
